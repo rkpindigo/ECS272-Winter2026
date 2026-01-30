@@ -1,0 +1,38 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+#main-container{
+  height: 100vh;
+  width: 100vw;
+}
+
+.chart-container{
+  height: 100%;
+}
+
+.legend-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.legend-color {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
